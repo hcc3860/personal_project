@@ -1,0 +1,67 @@
+main.main {
+  width: 100%;
+}
+
+main.main h1 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  /* border: solid red 1px; */
+}
+
+main.main .cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px;
+  grid-auto-flow: row;
+  grid-auto-rows: auto;
+}
+
+main.main .cards .card {
+  width: 380px;
+  height: 483px;
+  /* border: solid red 1px; */
+  display: inline-block;
+}
+
+main.main .cards .card:last-child {
+
+}
+
+main.main .cards .card .image {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+main.main .cards .card .image img {
+  width: 120%;
+  height: 100%;
+}
+
+main.main .text {
+  overflow: hidden;
+  /* border: solid green 1px; */
+  width: 100%;
+  height: calc(100% - 350px);
+  padding: 10px;
+
+}
+
+main.main .text h3.title {
+  margin: 0;
+}
+
+main.main .text span {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+main.main .text p {
+  text-overflow: ellipsis;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
