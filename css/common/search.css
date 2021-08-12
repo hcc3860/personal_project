@@ -1,0 +1,31 @@
+.search {
+  border: solid red 1px;
+  width: 100%;
+  font-size: 0;
+  margin: 20px 0 40px 0;
+}
+
+.search input[type="date"] {
+  width: 377px;
+  height: 68px;
+  font-size: 1rem;
+  vertical-align: top;
+}
+
+.search select {
+  width: 281px;
+  height: 68px;
+  font-size: 1rem;
+  vertical-align: top;
+}
+
+.search button {
+  color: white;
+  background-color: #04660B;
+  width: calc(100% - 377px - 377px - 281px);
+  height: 68px;
+  font-size: 1rem;
+  /* border: 0; */
+  cursor: pointer;
+  vertical-align: top;
+}

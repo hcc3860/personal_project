@@ -1,0 +1,22 @@
+.main {
+  width: 100%;
+}
+
+.main .result-notice {
+  border: solid red 1px;
+  text-align: center;
+}
+
+.main table.result-content {
+  border: solid red 1px;
+  width: 100%;
+}
+
+th:first-child {
+  border: solid black 1px;
+  width: 500px;
+}
+
+th {
+  width: 300px;
+}
