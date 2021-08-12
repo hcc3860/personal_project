@@ -1,0 +1,61 @@
+main.main h1{
+  width: 100%;
+  text-align: center;
+  /* border: solid red 1px; */
+}
+
+main.main .rooms-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 45px;
+
+}
+
+main.main .rooms-content .room-content {
+  border: solid black 1px;
+  width: 578px;
+  height: 815px;
+}
+
+main.main .rooms-content .room-content .image-block {
+  /* border: solid red 1px; */
+  width: 578px;
+  height: 578px;
+}
+
+main.main .rooms-content .room-content .image-block img {
+  width: 100%;
+  height: 100%;
+}
+
+main.main .rooms-content .room-content .text-block {
+  padding: 20px;
+}
+
+main.main .rooms-content .room-content .text-block h2 {
+  margin-top: 0;
+}
+
+main.main .rooms-content .room-content .text-block p.intro {
+  display: inline-block;
+  width: 100%;
+  /* margin-bottom: 0; */
+}
+
+main.main .rooms-content .room-content .text-block .button-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main.main .rooms-content .room-content .text-block .button-block span.more {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+main.main .rooms-content .room-content .text-block .button-block button.reserve {
+  width: 125px;
+  height: 45px;
+  color: white;
+  background-color: #04660B;
+}

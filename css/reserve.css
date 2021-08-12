@@ -3,20 +3,110 @@
 }
 
 .main .result-notice {
-  border: solid red 1px;
+  /* border: solid red 1px; */
   text-align: center;
 }
 
-.main table.result-content {
-  border: solid red 1px;
-  width: 100%;
-}
-
-th:first-child {
+.main .result .title {
   border: solid black 1px;
-  width: 500px;
+  height: 52px;
+  font-size: 0;
 }
 
-th {
-  width: 300px;
+.main .result .title span {
+  line-height: 52px;
+  height: 100%;
+  /* border: solid red 1px; */
+  display: inline-block;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.main .result .title span.category {
+  width: 200px;
+  margin-left: 209px;
+}
+
+.main .result .title span.people {
+  width: 135px;
+}
+
+.main .result .title span.price {
+  width: 135px;
+}
+
+.main .result .title span.info {
+  width: 186px;
+}
+
+.main .result .title span.rooms {
+  width: 165px;
+}
+
+.main .result .content {
+  height: 195px;
+  border: solid black 1px;
+  display: flex;
+  border-top: 0;
+}
+
+.main .result .content > div {
+  border-right: solid black 1px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.main .result .content > div:last-child {
+  border-right: 0;
+}
+
+.main .result .content .image-block {
+  width: 209px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.main .result .content .image-block img {
+  width: 159px;
+  height: 159px;
+}
+
+.main .result .content .category-block {
+  width: 200px;
+}
+
+.main .result .content .people-block {
+  width: 135px;
+}
+
+.main .result .content .price-block {
+  width: 135px;
+}
+
+.main .result .content .info-block {
+  width: 186px;
+}
+
+.main .result .content .rooms-block {
+  width: 165px;
+}
+
+.main .result .content .rooms-block  select {
+  width: 125px;
+  height: 45px;
+}
+
+.main .result .content .confirm-block {
+  width: calc(100% - 209px - 200px - 135px - 135px - 186px - 165px);
+}
+
+.main .result .content .confirm-block button {
+  width: 125px;
+  height: 45px;
+  color: white;
+  background-color: #04660B;
 }
