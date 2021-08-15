@@ -48,8 +48,7 @@ main.main .rooms-content .room-content .text-block .button-block {
   align-items: center;
 }
 
-main.main .rooms-content .room-content .text-block .button-block span.more {
-  text-decoration: underline;
+main.main .rooms-content .room-content .text-block .button-block a {
   text-underline-offset: 2px;
 }
 

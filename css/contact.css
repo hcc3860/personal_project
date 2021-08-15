@@ -1,0 +1,43 @@
+main.main h1 {
+  width: 100%;
+  text-align: center;
+}
+
+main.main {
+  /* border: solid red 1px; */
+  display: block;
+}
+
+main.main .map {
+  /* border: solid red 1px; */
+  display: inline-block;
+  margin-right: 50px;
+}
+
+main.main .map iframe {
+  width: 600px;
+  height: 570px;
+}
+
+main.main .text-blocks {
+  display: inline-block;
+  vertical-align: top;
+  /* border: solid red 1px; */
+  width: calc(100% - 600px - 110px);
+}
+
+main.main .text-blocks .text-block span {
+  width: 100%;
+  display: block;
+  line-height: 1.5rem;
+
+}
+
+main.main .text-blocks .text-block:first-child h3 {
+  margin-top: 0;
+}
+
+
+main.main .text-blocks .text-block.transportation li {
+  line-height: 1.5rem;
+}

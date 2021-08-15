@@ -1,0 +1,41 @@
+main.main h1 {
+  width: 100%;
+  text-align: center;
+}
+
+main.main div.image-block {
+  width: 1000px;
+  height: 500px;
+  border: solid red 1px;
+  margin: 0 auto;
+}
+
+
+main.main .text-block {
+  display: flex;
+  margin: 0 auto;
+  border: solid red 1px;
+  width: 1000px;
+}
+
+main.main .text-block .left, main.main .text-block .right {
+  width: 550px;
+  padding: 50px 100px;
+}
+
+main.main .text-block .right {
+  position: relative;
+}
+
+main.main .text-block .right a {
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+}
+
+main.main .text-block .right a button {
+  width: 125px;
+  height: 45px;
+  color: white;
+  background-color: #04660B;
+}

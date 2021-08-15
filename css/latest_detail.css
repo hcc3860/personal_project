@@ -1,0 +1,28 @@
+main.main {
+  height: auto;
+}
+
+
+main.main .title {
+  width: 100%;
+  text-align: left;
+  margin: 40px 0;
+}
+
+main.main .text-block img {
+  width: 500px;
+  height: 400px;
+  margin: 0 50px 50px 0;
+  float: left;
+}
+
+main.main .text-block {
+  width: 100%;
+  line-height: 1.5rem;
+}
+
+main.main .text-block::after {
+  content: "";
+  display: block;
+  clear: both;
+}
