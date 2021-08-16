@@ -24,6 +24,7 @@
   flex-direction: row-reverse;
   margin-bottom: 20px;
   align-items: center;
+  height: 100%;
 }
 
 .about .text-blocks .text-block:last-child {
@@ -37,17 +38,20 @@
 }
 
 .about .text-blocks .text-block .content {
-  margin-left: 200px;
+  margin-left: 100px;
+  /* border: solid red 1px; */
+  height: 100%;
+  vertical-align: top;
 }
 
 .about .text-blocks .text-block .content:nth-child(2) {
-  margin-right: 200px;
+  margin-right: 100px;
   margin-left: 0;
 }
 
 .about .text-blocks .text-block .content p {
-  width: 300px;
-  height: 200px;
+  width: 500px;
+  height: auto;
   /* border: solid red 1px; */
   /* margin: 0 ; */
 

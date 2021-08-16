@@ -39,6 +39,7 @@
 
 .promotion {
   margin-bottom: 40px;
+  position: relative;
 }
 
 .promotion .promotion-image {
@@ -55,6 +56,40 @@
   position: absolute;
   top: -30%;
  }
+
+.promotion .promotion-image .text-block {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(40, 37, 36, 0.75);
+  padding: 0 50px 50px 50px;
+
+}
+
+.promotion .promotion-image .text-block h1 {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  /* border: solid red 1px; */
+}
+
+.promotion .promotion-image .text-block ol.content {
+  padding-bottom: 80px;
+  color: white;
+  font-size: 2rem;
+  /* line-height: 2.2rem; */
+  overflow: hidden:
+  border: solid red 5px;
+  margin: 0;
+  /* padding: 0; */
+}
+
+.promotion .promotion-image .text-block ol.content li {
+  margin: 20px 0;
+}
 
 .latest {
   font-size: 0;
