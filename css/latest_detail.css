@@ -1,7 +1,10 @@
+header.header nav ul li:nth-child(2) a{
+  color: #afbf0b;
+}
+
 main.main {
   height: auto;
 }
-
 
 main.main .title {
   width: 100%;
