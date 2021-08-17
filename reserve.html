@@ -50,15 +50,17 @@
     </div>
 
     <div class="search">
-      <input type="date">
-      <input type="date">
-      <select name="" id="">
-        <option value="1">1人</option>
-        <option value="2">2人</option>
-        <option value="3">3人</option>
-        <option value="4">4人</option>
-      </select>
-      <button>查詢空房狀況</button>
+      <form action="">
+        <input class="check-in" type="date">
+        <input class="check-out" type="date">
+        <select name="" id="">
+          <option value="1">1人</option>
+          <option value="2">2人</option>
+          <option value="3">3人</option>
+          <option value="4">4人</option>
+        </select>
+        <button class="sub" type="submit">查詢空房狀況</button>
+      </form>
     </div>
 
     <main class="main">
@@ -76,15 +78,14 @@
 
         <div class="content">
           <div class="image-block">
-            <img src="./css/images/doubleroom.jpg" alt="">
+            <img src="./css/images/luxury_double_room.jpg" alt="">
           </div>
-          <div class="category-block">精緻雙人房</div>
+          <div class="category-block">豪華雙人房</div>
           <div class="people-block">
             <i class="fas fa-male fa-2x"></i>
-
             <i class="fas fa-male fa-2x"></i>
           </div>
-          <div class="price-block">TWD 2,160</div>
+          <div class="price-block">TWD 5,000</div>
           <div class="info-block">
             免費早餐
             <br>
@@ -102,15 +103,6 @@
             <button>立即預定</button>
           </div>
         </div>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-
-
       </div>
 
 
@@ -136,5 +128,6 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/2aab1e0c82.js" crossorigin="anonymous"></script>
+    <script src="./javascript/reserve.js"></script>
   </body>
 </html>

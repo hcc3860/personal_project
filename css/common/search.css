@@ -19,6 +19,7 @@
   vertical-align: top;
   cursor: pointer;
   /* border: solid #d6ff00 5px; */
+  padding: 10px;
 }
 
 .search select {
@@ -27,6 +28,7 @@
   font-size: 1rem;
   vertical-align: top;
   cursor: pointer;
+  padding: 10px;
   /* border: solid #d6ff00 5px; */
 }
 
