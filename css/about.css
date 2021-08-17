@@ -1,3 +1,7 @@
+header.header nav ul li:first-child a{
+  color: #afbf0b;
+}
+
 .about h1 {
   display: block;
   margin: 20px 0 50px;
@@ -60,6 +64,6 @@
 .about .text-blocks .text-block img {
   /* border: solid blue 2px; */
   width:300px;
-  height: 300px;
+  height: 250px;
   background-color: gray;
 }

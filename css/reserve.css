@@ -67,11 +67,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .main .result .content .image-block img {
-  width: 159px;
+  width: 100%;
   height: 159px;
 }
 
@@ -81,6 +80,13 @@
 
 .main .result .content .people-block {
   width: 135px;
+  display: flex;
+  justify-content: center;
+}
+
+.main .result .content .people-block > i {
+  margin: 0 5px;
+
 }
 
 .main .result .content .price-block {

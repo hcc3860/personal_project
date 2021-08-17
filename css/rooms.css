@@ -1,3 +1,7 @@
+header.header nav ul li:nth-child(3) a{
+  color: #afbf0b;
+}
+
 main.main h1{
   width: 100%;
   text-align: center;
@@ -14,13 +18,13 @@ main.main .rooms-content {
 main.main .rooms-content .room-content {
   border: solid black 1px;
   width: 578px;
-  height: 815px;
+  height: 700px;
 }
 
 main.main .rooms-content .room-content .image-block {
   /* border: solid red 1px; */
   width: 578px;
-  height: 578px;
+  height: 463px;
 }
 
 main.main .rooms-content .room-content .image-block img {
@@ -39,6 +43,8 @@ main.main .rooms-content .room-content .text-block h2 {
 main.main .rooms-content .room-content .text-block p.intro {
   display: inline-block;
   width: 100%;
+  height: 3rem;
+  /* border: solid red 1px; */
   /* margin-bottom: 0; */
 }
 
