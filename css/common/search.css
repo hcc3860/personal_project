@@ -6,12 +6,19 @@
 
 }
 
+/* .search input,
+.search select,
+.search a {
+  border: solid red 5px;
+} */
+
 .search input[type="date"] {
   width: 377px;
   height: 68px;
   font-size: 1rem;
   vertical-align: top;
   cursor: pointer;
+  /* border: solid #d6ff00 5px; */
 }
 
 .search select {
@@ -20,6 +27,7 @@
   font-size: 1rem;
   vertical-align: top;
   cursor: pointer;
+  /* border: solid #d6ff00 5px; */
 }
 
 .search button {
@@ -31,4 +39,5 @@
   /* border: 0; */
   cursor: pointer;
   vertical-align: top;
+  /* border: solid #d6ff00 5px; */
 }

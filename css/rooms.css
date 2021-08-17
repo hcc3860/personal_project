@@ -56,6 +56,12 @@ main.main .rooms-content .room-content .text-block .button-block {
 
 main.main .rooms-content .room-content .text-block .button-block a {
   text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+main.main .rooms-content .room-content .text-block .button-block a:visited,
+main.main .rooms-content .room-content .text-block .button-block a:active {
+  color: black;
 }
 
 main.main .rooms-content .room-content .text-block .button-block button.reserve {
@@ -63,4 +69,5 @@ main.main .rooms-content .room-content .text-block .button-block button.reserve 
   height: 45px;
   color: white;
   background-color: #04660B;
+  cursor: pointer;
 }

@@ -18,7 +18,7 @@ header.header nav ul li:first-child a{
   /* background-image: url("./images/green.png");
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: 45% 50%; */
+  background-size: 70% 100%; */
 }
 
 .about .text-blocks .text-block {
@@ -26,9 +26,9 @@ header.header nav ul li:first-child a{
   margin: 0 auto;
   /* border: solid red 1px; */
   flex-direction: row-reverse;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   align-items: center;
-  height: 100%;
+  height: auto;
 }
 
 .about .text-blocks .text-block:last-child {
@@ -56,14 +56,22 @@ header.header nav ul li:first-child a{
 .about .text-blocks .text-block .content p {
   width: 500px;
   height: auto;
+  line-height: 1.5rem;
+  margin-bottom: 0;
   /* border: solid red 1px; */
   /* margin: 0 ; */
-
 }
 
 .about .text-blocks .text-block img {
   /* border: solid blue 2px; */
   width:300px;
   height: 250px;
-  background-color: gray;
+}
+
+hr.line {
+  width: 90%;
+  height: 1px;
+  background-color: green;
+  margin:40px auto;
+  border: 0;
 }

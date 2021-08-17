@@ -21,8 +21,14 @@ main.main .cards {
   grid-auto-rows: auto;
 }
 
-main.main .cards a:visited, main.main .cards a:active {
+main.main .cards .card a {
+  text-decoration: none;
+}
+
+main.main .cards .card a[target="latest_detail"]:visited, main.main .cards .card a[target="latest_detail"]:active {
   color: black;
+  /* text-decoration: none; */
+
 }
 
 main.main .cards .card {
@@ -49,7 +55,8 @@ main.main .text {
   width: 100%;
   height: calc(100% - 330px);
   padding: 10px;
-
+  border: solid black 1px;
+  border-top: 0;
 }
 
 main.main .text h3.title {
