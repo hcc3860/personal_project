@@ -1,3 +1,7 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
 .main {
   width: 100%;
 }
@@ -99,6 +103,10 @@
 
 .main .result .content .rooms-block {
   width: 165px;
+}
+
+.main .result .content .rooms-block select {
+  padding: 10px;
 }
 
 .main .result .content .rooms-block  select {

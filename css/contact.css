@@ -1,3 +1,7 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
 header.header nav ul li:nth-child(6) a{
   color: #afbf0b;
 }
@@ -5,7 +9,7 @@ header.header nav ul li:nth-child(6) a{
 main.main h1 {
   width: 100%;
   text-align: center;
-  margin: 40px 0; 
+  margin: 40px 0;
 }
 
 main.main {

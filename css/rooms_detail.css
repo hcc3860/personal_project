@@ -1,3 +1,7 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
 main.main h1 {
   width: 100%;
   text-align: center;

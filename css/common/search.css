@@ -1,3 +1,7 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
 .search {
   /* border: solid red 1px; */
   width: 100%;

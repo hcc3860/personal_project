@@ -1,3 +1,7 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
 .banner {
   /* border: solid red 1px; */
   height: 540px;
