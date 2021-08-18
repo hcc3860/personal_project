@@ -23,9 +23,11 @@ main.main .cards {
 
 main.main .cards .card a {
   text-decoration: none;
+  color: black;
 }
 
-main.main .cards .card a[target="latest_detail"]:visited, main.main .cards .card a[target="latest_detail"]:active {
+main.main .cards .card a[target="latest_detail"]:visited,
+main.main .cards .card a[target="latest_detail"]:active {
   color: black;
   /* text-decoration: none; */
 

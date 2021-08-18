@@ -1,3 +1,7 @@
+body {
+  font-family: sans-serif;
+}
+
 .intro {
   font-size: 0;
   margin-bottom: 40px;
@@ -39,6 +43,11 @@
   color: white;
   /* color: #096910; */
   text-align: center;
+  transition: background-color .7s;
+}
+
+div.img-block:hover span.title {
+  background-color: rgba(9, 105, 16, 1);
 }
 
 .alert {
@@ -115,12 +124,31 @@
 }
 
 .latest .text-blocks .text-block {
-  border: solid gray 1px;
+  border: solid #096910 1px;
   height: auto;
   width: 390px;
   overflow: hidden;
+  position: relative;
+  cursor: pointer;
 
 }
+
+/* .latest .text-blocks .text-block::before {
+  content:"";
+  transition: background-color .7s;
+}
+
+.latest .text-blocks .text-block:hover::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 50;
+  background-color: rgba(128, 128, 128, 0.67);
+  top: 0;
+  border: solid red 12px;
+}
+*/
 
 .latest .text-blocks .text-block:nth-child(2) {
   margin: 0 15px;
@@ -139,12 +167,14 @@
   padding: 0 5px;
   font-size: 1.5rem;
   display: inline-block;
+  color: black;
   /* color: #096910; */
 }
 
 .latest .text-blocks .text-block p.content {
   padding: 0 5px 5px;
   display: inline-block;
+  color: black;
   /* border: solid red 1px; */
   /* color: #096910; */
 }
@@ -154,7 +184,9 @@
   height: 300px;
 }
 
-.latest .text-blocks .text-block a:visited, .latest .text-blocks .text-block a:active {
+.latest .text-blocks .text-block a,
+.latest .text-blocks .text-block a:visited,
+.latest .text-blocks .text-block a:active {
   color: black;
 }
 
@@ -172,6 +204,7 @@
   position: relative;
   width: 590px;
   height: 400px;
+  cursor: pointer;
 }
 
 .latest .wider-blocks .wider-block img {
@@ -186,8 +219,11 @@
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 1rem;
   text-align: center;
-  background-color: #096910;
+  background-color: rgba(128, 128, 128, 0.67);
   /* border: solid red 1px; */
   z-index: 100;
   color: white;

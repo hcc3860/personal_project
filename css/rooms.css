@@ -60,7 +60,8 @@ main.main .rooms-content .room-content .text-block .button-block a {
 }
 
 main.main .rooms-content .room-content .text-block .button-block a:visited,
-main.main .rooms-content .room-content .text-block .button-block a:active {
+main.main .rooms-content .room-content .text-block .button-block a:active,
+main.main .rooms-content .room-content .text-block .button-block a {
   color: black;
 }
 
