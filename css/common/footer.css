@@ -30,7 +30,7 @@ footer.footer .img-block {
 
 footer.footer .img-block img {
   margin: 0 10px;
-
+  cursor: pointer;
 }
 
 footer.footer .img-block img:last-child {

@@ -1,6 +1,7 @@
 main.main h1 {
   width: 100%;
   text-align: center;
+  margin: 40px 0;
 }
 
 main.main div.image-block {

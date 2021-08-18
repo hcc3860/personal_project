@@ -5,6 +5,7 @@ header.header nav ul li:nth-child(6) a{
 main.main h1 {
   width: 100%;
   text-align: center;
+  margin: 40px 0; 
 }
 
 main.main {

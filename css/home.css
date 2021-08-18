@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 
 .intro {
@@ -78,7 +78,17 @@ div.img-block:hover span.title {
   right: 0;
   background-color: rgba(40, 37, 36, 0.75);
   padding: 30px 50px 50px 50px;
+  /* border: solid red 1px; */
+}
 
+.alert .alert-image .text-block a.more {
+  color: white;
+  font-size: 1.2rem;
+  /* border: solid red 1px; */
+  display: inline-block;
+  margin-left: 40px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .alert .alert-image .text-block h2 {
@@ -91,14 +101,15 @@ div.img-block:hover span.title {
 }
 
 .alert .alert-image .text-block ol.content {
-  padding-bottom: 80px;
+  padding-bottom: 20px;
   color: white;
   font-size: 1.2rem;
   /* line-height: 2.2rem; */
   overflow: hidden:
-  border: solid red 5px;
+  border: solid green 5px;
   margin: 0;
   /* padding: 0; */
+  z-index: 100;
 }
 
 .alert .alert-image .text-block ol.content li {

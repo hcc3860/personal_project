@@ -10,6 +10,7 @@ main.main h1 {
   display: inline-block;
   width: 100%;
   text-align: center;
+  margin: 40px 0;
   /* border: solid red 1px; */
 }
 
