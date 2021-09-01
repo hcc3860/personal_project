@@ -8,6 +8,8 @@ header.header nav ul li:nth-child(2) a{
 
 main.main {
   height: auto;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 main.main .title {

@@ -4,7 +4,9 @@ body {
 
 footer.footer {
   width: 100%;
+  /* width: 1200px; */
   height: auto;
+  margin: 0 auto;
   /* border: solid red 1px; */
   /* border-top: solid black 1px; */
   /* margin-top: 15px; */

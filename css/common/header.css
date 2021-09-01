@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Noto Sans TC', sans-serif;
+  /* border: solid red 1px; */
 }
 
 header.header {
@@ -12,8 +13,11 @@ header.header {
   /* border: solid red 1px; */
   font-size: 0;
   display: inline-block;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  /* margin: 0 auto; */
   z-index: 200;
   background-color: white;
 }

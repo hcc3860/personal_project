@@ -4,9 +4,10 @@ body {
 
 .search {
   /* border: solid red 1px; */
-  width: 100%;
+  /* width: 100%; */
+  width: 1200px;
   font-size: 0;
-  margin: 20px 0 40px 0;
+  margin: 20px auto 40px;
 
 }
 

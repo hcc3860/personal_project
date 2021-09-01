@@ -6,6 +6,12 @@ header.header nav ul li:first-child a{
   color: #afbf0b;
 }
 
+.about {
+  border: solid red 1px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .about h1 {
   display: block;
   margin: 40px 0 40px;

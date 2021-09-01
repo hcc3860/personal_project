@@ -2,6 +2,11 @@ body {
   font-family: 'Noto Sans TC', sans-serif;
 }
 
+main.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 main.main h1 {
   width: 100%;
   text-align: center;

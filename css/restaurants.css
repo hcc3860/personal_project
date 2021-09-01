@@ -6,6 +6,11 @@ header.header nav ul li:nth-child(4) a{
   color: #afbf0b;
 }
 
+main.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 main.main h1 {
   width: 100%;
   text-align: center;

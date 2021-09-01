@@ -4,6 +4,8 @@ body {
 
 .banner {
   /* border: solid red 1px; */
+  margin-top: 100px;
+  margin: 100px auto 0;
   height: 540px;
   width: 1200px;
   background-image: url("../images/scene.jpg");
