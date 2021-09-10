@@ -41,7 +41,7 @@ main.main .cards .card a[target="latest_detail"]:active {
 
 main.main .cards .card {
   width: 380px;
-  height: 450px;
+  /* height: 450px; */
   /* border: solid red 1px; */
   display: inline-block;
 }
@@ -84,4 +84,6 @@ main.main .text p {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
+  color: #5d5d5d;
+  line-height: 24px;
 }

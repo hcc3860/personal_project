@@ -25,6 +25,10 @@ body {
   cursor: pointer;
   /* border: solid #d6ff00 5px; */
   padding: 10px;
+  border-right: 0;
+  border-top: solid gray 1px;
+  border-left: solid gray 1px;
+  border-bottom: solid gray 1px;
 }
 
 .search select {
@@ -34,6 +38,10 @@ body {
   vertical-align: top;
   cursor: pointer;
   padding: 10px;
+  border-right: 0;
+  border-top: solid gray 1px;
+  border-left: solid gray 1px;
+  border-bottom: solid gray 1px;
   /* border: solid #d6ff00 5px; */
 }
 
@@ -47,4 +55,25 @@ body {
   cursor: pointer;
   vertical-align: top;
   /* border: solid #d6ff00 5px; */
+}
+
+
+@media screen and (max-width: 1200px) {
+  .search {
+    width: 768px;
+  }
+
+  .search input[type="date"] {
+    width: 210px;
+    height: 68px;
+  }
+
+  .search select {
+    width: 210px;
+    height: 68px;
+  }
+
+  .search button {
+    width: calc(100% - 210px - 210px - 210px);
+  }
 }
