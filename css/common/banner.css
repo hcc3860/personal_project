@@ -40,10 +40,18 @@ body {
   left: -60px;
 }
 
-@media screen and (max-width: 1200px) {
+@media all and (min-width: 768px) and (max-width: 1199.98px) {
   .banner {
     width: 768px;
     height: 400px;
+    background-size: cover;
+  }
+}
+
+@media all and (max-width: 767.98px) {
+  .banner {
+    width: 576px;
+    height: 350px;
     background-size: cover;
   }
 }

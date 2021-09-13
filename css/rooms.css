@@ -11,6 +11,19 @@ main.main {
   margin: 0 auto;
 }
 
+@media all and (min-width: 768px) and (max-width: 1199.98px) {
+  main.main {
+    width: 768px;
+  }
+}
+
+
+@media all and (max-width: 767.98px) {
+  main.main {
+    width: 576px;
+  }
+}
+
 main.main h1{
   width: 100%;
   text-align: center;
@@ -22,13 +35,28 @@ main.main .rooms-content {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 44px;
-
 }
 
 main.main .rooms-content .room-content {
   border: solid black 1px;
-  width: 578px;
+  /* width: 578px; */
   height: auto;
+}
+
+@media all and (min-width: 768px) and (max-width: 1199.98px) {
+  main.main .rooms-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 22px;
+  }
+}
+
+@media all and (max-width: 767.98px) {
+  main.main .rooms-content {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 22px;
+  }
 }
 
 main.main .rooms-content .room-content .image-block {
@@ -37,9 +65,16 @@ main.main .rooms-content .room-content .image-block {
   height: 463px;
 }
 
+@media all and (min-width: 768px) and (max-width: 1199.98px) {
+  main.main .rooms-content .room-content .image-block {
+    height: 300px;
+  }
+}
+
 main.main .rooms-content .room-content .image-block img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 main.main .rooms-content .room-content .text-block {

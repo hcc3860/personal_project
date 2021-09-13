@@ -29,6 +29,7 @@ header.header img.logo {
 }
 
 header.header nav {
+  display: inline-block;
   vertical-align: top;
   height: 100%;
   margin-left: 275px;
@@ -79,11 +80,13 @@ header.header nav ul li:last-child > a {
   text-decoration: none;
 }
 
-header.header .container input {
+header.header .container {
   display: none;
 }
 
-@media screen and (max-width: 1200px) {
+
+
+@media all and (min-width: 768px) and (max-width: 1199.98px) {
   header.header {
     width: 768px;
     font-size: 0;
@@ -91,8 +94,7 @@ header.header .container input {
 
   header.header nav {
     display: none;
-    /* border: solid red 1px; */
-    width: 768px;
+    width: 100%;
     position: absolute;
     top: 100%;
     left: 0;
@@ -100,9 +102,12 @@ header.header .container input {
     height: auto;
   }
 
+  header.header nav.-on {
+    display: inline-block;
+  }
+
   header.header nav ul {
     width: 100%;
-    border: solid gray 1px;
   }
 
   header.header nav ul li {
@@ -132,20 +137,17 @@ header.header .container input {
     height: 100%;
     line-height: 100px;
     font-size: 1rem;
-    /* display: flex; */
   }
 
   /* header.header .container span, */
   header.header div.container a
   header.header div.container input,
-  header.header div.container label#hamburger {
+  header.header div.container label.hamburger {
     display: inline-block;
-    /* color: black; */
-    height: 100%;
   }
 
-  header.header div.container input:checked + nav{
-    display: block;
+  header.header div.container label.hamburger {
+    margin-left: 370px;
   }
 
   header.header div.container a {
@@ -154,44 +156,111 @@ header.header .container input {
     border: 0;
     font-size: 1rem;
     padding: 10px 15px;
+    margin-left: 20px;
     text-decoration: none;
+    vertical-align: middle;
   }
 
-  header.header div.container label {
-    width: 25px;
-    height: 2px;
-    display: inline-block;
-    background-color: black;
-    position: relative;
-    top: 5%;
-    /* transform: translateY(-50%); */
-    /* vertical-align: top; */
+  header.header div.container button.hamburger {
     margin-left: calc(100% - 160px);
-  }
-
-  header.header div.container label::before {
-    content: "";
+    padding: 0;
+    vertical-align: top;
     /* border: solid red 1px; */
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: -10px;
+
   }
 
-  header.header div.container label::after {
-    content: "";
+  header.header div.container button.hamburger span.hamburger-box {
+    vertical-align: middle;
+    /* line-height: 100px; */
+  }
+}
+
+@media all and (max-width: 767.98px) {
+  header.header {
+    width: 576px;
     /* border: solid red 1px; */
-    background-color: black;
+  }
+
+  header.header nav {
+    display: none;
     width: 100%;
-    height: 100%;
     position: absolute;
+    top: 100%;
     left: 0;
-    top: -20px;
+    margin: 0;
+    height: auto;
   }
 
 
+    header.header nav.-on {
+      display: inline-block;
+    }
 
+    header.header nav ul {
+      width: 100%;
+    }
 
+    header.header nav ul li {
+      display: block;
+      width: 100%;
+      height: 30px;
+      /* line-height: 30px; */
+      /* border: solid red 1px; */
+      margin: 0;
+      text-align: center;
+      background-color: white;
+    }
+
+    header.header nav ul li a{
+      line-height: 30px;
+    }
+
+    header.header nav ul li:last-child {
+      display: none;
+    }
+
+    header.header .container {
+      display: inline-block;
+      /* border: solid red 1px; */
+      width: calc(100% - 250px);
+      vertical-align: top;
+      height: 100%;
+      line-height: 100px;
+      font-size: 1rem;
+    }
+
+    /* header.header .container span, */
+    header.header div.container a
+    header.header div.container input,
+    header.header div.container label.hamburger {
+      display: inline-block;
+    }
+
+    header.header div.container label.hamburger {
+      margin-left: 370px;
+    }
+
+    header.header div.container a {
+      background-color: #04660B;
+      color: white;
+      border: 0;
+      font-size: 1rem;
+      padding: 10px 15px;
+      margin-left: 20px;
+      text-decoration: none;
+      vertical-align: middle;
+    }
+
+    header.header div.container button.hamburger {
+      margin-left: calc(100% - 160px);
+      padding: 0;
+      vertical-align: top;
+      /* border: solid red 1px; */
+
+    }
+
+    header.header div.container button.hamburger span.hamburger-box {
+      vertical-align: middle;
+      /* line-height: 100px; */
+    }
 }

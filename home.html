@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/common/search.css">
     <link rel="stylesheet" href="./css/common/footer.css">
+    <link rel="stylesheet" href="./css/common/hamburger.css">
   </head>
   <body>
     <header class="header">
@@ -42,13 +43,16 @@
         </ul>
       </nav>
 
-      //for RWD
+      <!-- for RWD -->
       <div class="container">
-        <label for="hamburger" class="hamburger"></label>
-        <input type="checkbox" id="hamburger">
+        <button class="hamburger hamburger--collapse" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
         <a href="./reserve.html">線上訂房</a>
       </div>
-      //for RWD
+      <!-- for RWD -->
 
     </header>
 
@@ -242,6 +246,7 @@
         </p>
 
     </footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./javascript/header.js"></script>
   </body>
 </html>

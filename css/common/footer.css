@@ -49,6 +49,23 @@ footer.footer p.notice {
   width: 500px;
   height: auto;
   /* border: solid red 1px; */
-  margin: 30px auto 30px auto;
+  margin: 30px auto;
   color: white;
+}
+
+@media all and (min-width: 768px) and (max-width: 1199.98px) {
+  footer.footer {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 767.98px) {
+  footer.footer {
+    width: 100%;
+  }
+
+  footer.footer p.notice {
+    width: 100%;
+    max-width: 450px;
+  }
 }

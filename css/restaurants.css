@@ -11,6 +11,19 @@ main.main {
   margin: 0 auto;
 }
 
+
+@media all and (min-width: 768px) and (max-width: 1199.98px) {
+  main.main {
+    width: 768px;
+  }
+}
+
+@media all and (max-width: 767.98px) {
+  main.main {
+    width: 576px;
+  }
+}
+
 main.main h1 {
   width: 100%;
   text-align: center;
@@ -36,6 +49,15 @@ main.main .content-blocks .content-block .image-block {
   margin-right: 50px;
 }
 
+@media all and (min-width: 768px) and (max-width: 1199.98px) {
+  main.main .content-blocks .content-block .image-block {
+    width: calc(500px * 2 / 3);
+    height: calc(400px * 2 / 3);
+  }
+}
+
+@media all and (max-width: 767.98px) {}
+
 main.main .content-blocks .content-block .image-block img {
   width: 100%;
   height: 100%;
@@ -50,6 +72,29 @@ main.main .content-blocks .content-block .text-block {
   /* padding-right: 20px; */
 }
 
+@media all and (min-width: 768px) and (max-width: 1199.98px) {
+  main.main .content-blocks .content-block .text-block {
+    width: 380px;
+    /* border: solid red 1px; */
+  }
+
+  main.main .content-blocks .content-block .text-block h2 {
+    margin-top: 0;
+  }
+}
+
+@media all and (max-width: 767.98px) {}
+
 main.main .content-blocks .content-block .text-block p {
   line-height: 1.5rem;
+  margin: 0;
 }
+
+
+@media all and (min-width: 768px) and (max-width: 1199.98px) {
+  main.main .content-blocks .content-block .text-block p {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 767.98px) {}
