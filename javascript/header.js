@@ -12,7 +12,6 @@ $(function(){
 //   });
 // });
 
-
 let nav = document.getElementsByTagName("nav")[0];
 let hamburger = document.getElementsByClassName("hamburger--collapse")[0];
 window.addEventListener("resize", function(){
