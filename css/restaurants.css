@@ -56,7 +56,13 @@ main.main .content-blocks .content-block .image-block {
   }
 }
 
-@media all and (max-width: 767.98px) {}
+@media all and (max-width: 767.98px) {
+  main.main .content-blocks .content-block .image-block {
+    width: calc(500px * 1 / 2);
+    height: calc(400px * 1 / 2);
+    margin-right: 30px;
+  }
+}
 
 main.main .content-blocks .content-block .image-block img {
   width: 100%;
@@ -75,21 +81,26 @@ main.main .content-blocks .content-block .text-block {
 @media all and (min-width: 768px) and (max-width: 1199.98px) {
   main.main .content-blocks .content-block .text-block {
     width: 380px;
-    /* border: solid red 1px; */
-  }
-
-  main.main .content-blocks .content-block .text-block h2 {
-    margin-top: 0;
+    /* border: solid blue 1px; */
   }
 }
 
-@media all and (max-width: 767.98px) {}
+@media all and (max-width: 767.98px) {
+  main.main .content-blocks .content-block .text-block {
+    width: 290px;
+    /* border: solid blue 1px; */
+  }
+}
+
+  main.main .content-blocks .content-block .text-block h2 {
+    margin: 0;
+  }
+}
 
 main.main .content-blocks .content-block .text-block p {
   line-height: 1.5rem;
   margin: 0;
 }
-
 
 @media all and (min-width: 768px) and (max-width: 1199.98px) {
   main.main .content-blocks .content-block .text-block p {
@@ -97,4 +108,16 @@ main.main .content-blocks .content-block .text-block p {
   }
 }
 
-@media all and (max-width: 767.98px) {}
+@media all and (max-width: 767.98px) {
+  main.main .content-blocks .content-block .text-block p {
+    width: 100%;
+    /* border: solid red 1px; */
+    margin: 0;
+  }
+
+  main.main .content-blocks .content-block .text-block h4 {
+    margin-bottom: 0;
+    margin-top: 1rem;
+  }
+
+}
