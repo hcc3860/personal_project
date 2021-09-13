@@ -21,7 +21,7 @@ main.main .title {
 main.main .text-block img {
   width: 500px;
   height: 400px;
-  margin: 0 50px 50px 0;
+  margin: 0 40px 40px 0;
   float: left;
 }
 
@@ -34,4 +34,23 @@ main.main .text-block::after {
   content: "";
   display: block;
   clear: both;
+}
+
+@media all and (min-width: 768px) and (max-width: 1199.98px) {
+  main.main {
+    width: 768px;
+  }
+
+}
+
+@media all and (max-width: 767.98px) {
+  main.main {
+    width: 576px;
+  }
+
+  main.main .text-block img {
+    width: calc(500px * .7);
+    height: calc(400px * .7);
+    margin: 0 30px 30px 0;
+  }
 }

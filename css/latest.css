@@ -94,7 +94,7 @@ main.main .cards .card .image {
 
 @media all and (max-width: 767.98px) {
   main.main .cards .card .image {
-    /* height: 400px; */
+    height: auto;
   }
 }
 
@@ -108,6 +108,7 @@ main.main .cards .card .image img {
     height: auto;
     object-fit: cover;
     object-position: 50% 50%;
+    display: none;
   }
 
   main.main .cards .card:nth-child(7) .image img {
@@ -123,6 +124,15 @@ main.main .text {
   padding: 10px;
   border: solid black 1px;
   border-top: 0;
+}
+
+@media all and (max-width: 767.98px) {
+  main.main .text {
+    display: inline-block;
+    height: auto;
+    border-top: solid black 1px;
+    width: 100%;
+  }
 }
 
 main.main .text h3.title {
