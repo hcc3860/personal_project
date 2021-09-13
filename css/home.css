@@ -471,9 +471,13 @@ div.img-block:hover span.title {
     .latest .wider-blocks .wider-block:first-child {
       margin-right: 10px;
     }
-
+    
     .latest .wider-blocks .wider-block {
       width: 100%;
+    }
+
+    .latest .wider-blocks .wider-block:nth-child(2) {
+      margin-top: 20px;
     }
 /*
     .latest .wider-blocks .wider-block a img {

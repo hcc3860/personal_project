@@ -15,14 +15,14 @@ header.header nav ul li:first-child a{
 @media all and (min-width: 768px) and (max-width: 1199.98px) {
   .about {
     width: 768px;
-    border: solid red 1px;
+    /* border: solid red 1px; */
   }
 }
 
 @media all and (max-width: 767.98px) {
   .about {
     width: 576px;
-    border: solid red 1px;
+    /* border: solid red 1px; */
   }
 }
 

@@ -84,7 +84,7 @@ body {
   }
 
   .search input[type="date"] {
-    width: calc(100% / 2);
+    width: 50%;
     height: 50px;
   }
 

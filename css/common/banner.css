@@ -46,6 +46,18 @@ body {
     height: 400px;
     background-size: cover;
   }
+  .banner span.title {
+    left: calc(100px * 0.8);
+  }
+
+  .banner span.sub-title {
+    left: calc(160px * 0.8);
+    top: calc(47% / 0.9);
+  }
+  .banner span.sub-title::before {
+    left: calc(-60px * 0.8);
+    width: calc(50px * 0.8);
+  }
 }
 
 @media all and (max-width: 767.98px) {
@@ -54,4 +66,19 @@ body {
     height: 350px;
     background-size: cover;
   }
+
+  .banner span.title {
+    left: calc(100px * 0.8 * 0.8);
+  }
+
+  .banner span.sub-title {
+    left: calc(160px * 0.8 * 0.8);
+    top: calc(47% / 0.9);
+  }
+
+  .banner span.sub-title::before {
+    left: calc(-60px * 0.8 * 0.8);
+    width: calc(50px * 0.8 * 0.8);
+  }
+
 }
