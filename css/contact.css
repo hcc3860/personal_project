@@ -9,17 +9,27 @@ header.header nav ul li:nth-child(6) a{
 main.main {
   width: 1200px;
   margin: 0 auto;
+  display: block;
+}
+
+@media all and (min-width: 768px) and (max-width: 1199.98px) {
+  main.main {
+    width: 768px;
+  }
+}
+
+@media all and (max-width: 767.98px) {
+  main.main {
+    width: 576px;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 main.main h1 {
   width: 100%;
   text-align: center;
   margin: 40px 0;
-}
-
-main.main {
-  /* border: solid red 1px; */
-  display: block;
 }
 
 main.main .map {
@@ -33,11 +43,42 @@ main.main .map iframe {
   height: 570px;
 }
 
+@media all and (min-width: 768px) and (max-width: 1199.98px) {
+  main.main .map {
+    margin: 0 5px 0 0;
+    /* border: solid red 1px; */
+  }
+
+  main.main .map iframe {
+    width: calc(600px * 2 / 3) ;
+    /* height: calc(570px * 2 / 3); */
+  }
+}
+
+@media all and (max-width: 767.98px) {
+  main.main .map {
+    order: 3;
+  }
+}
+
 main.main .text-blocks {
   display: inline-block;
   vertical-align: top;
   /* border: solid red 1px; */
   width: calc(100% - 600px - 110px);
+}
+
+@media all and (min-width: 768px) and (max-width: 1199.98px) {
+  main.main .text-blocks {
+    width: calc(100% - 410px);
+    /* border: solid red 1px; */
+  }
+}
+
+@media all and (max-width: 767.98px) {
+  main.main .text-blocks {
+    width: 100%;
+  }
 }
 
 main.main .text-blocks .text-block span {
@@ -55,3 +96,17 @@ main.main .text-blocks .text-block:first-child h3 {
 main.main .text-blocks .text-block.transportation li {
   line-height: 1.5rem;
 }
+
+@media all and (min-width: 768px) and (max-width: 1199.98px) {
+  main.main .text-blocks .text-block.transportation ul {
+    padding-left: 20px;
+    margin-top: 0;
+  }
+}
+
+@media all and (max-width: 767.98px) {}
+
+
+@media all and (min-width: 768px) and (max-width: 1199.98px) {}
+
+@media all and (max-width: 767.98px) {}
