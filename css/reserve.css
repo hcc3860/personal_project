@@ -31,6 +31,88 @@ body {
   text-align: center;
 }
 
+@media all and (max-width: 575.98px) {
+  main.main .result {
+    display: flex;
+    flex-direction: row;
+    border: solid black 1px;
+    height: auto;
+    padding: 10px;
+  }
+
+  main.main .result .title {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+    border: 0;
+  }
+
+  main.main .result .title span {
+    border-bottom: solid gray 1px;
+    min-width: 100%;
+    max-width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: left;
+    /* border: solid red 1px; */
+  }
+
+  main.main .result .title span:nth-child(4) {
+    height: 6rem;
+  }
+
+  main.main .result .content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 0;
+  }
+
+  main.main .result .content div{
+    padding: 0;
+    min-width: 100%;
+    max-width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    border: 0;
+    margin-left: auto;
+    border-bottom: solid gray 1px;
+  }
+
+  main.main .result .content div:nth-child(3) > i {
+    line-height: 3rem;
+  }
+
+  main.main .result .content div:nth-child(5) {
+    height: 6rem;
+  }
+
+  main.main .result .content div:nth-child(6) {
+    align-items: center;
+  }
+
+  main.main .result .content div:nth-child(6) > select {
+    height: 2rem;
+
+    width: 100%;
+    padding: 0;
+  }
+
+  main.main .result .content div:last-child  {
+    height: auto;
+    line-height: auto;
+    padding-top: 10px;
+  }
+
+  main.main .result .content div:last-child > button {
+    width: 100%;
+
+  }
+}
+
 .main .result .title {
   border: solid black 1px;
   height: 52px;
