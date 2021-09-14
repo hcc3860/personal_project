@@ -24,6 +24,13 @@ main.main {
   }
 }
 
+@media all and (max-width: 576.98px) {
+  main.main {
+    width: 375px;
+    padding: 0 10px;
+  }
+}
+
 main.main h1{
   width: 100%;
   text-align: center;
@@ -68,6 +75,12 @@ main.main .rooms-content .room-content .image-block {
 @media all and (min-width: 768px) and (max-width: 1199.98px) {
   main.main .rooms-content .room-content .image-block {
     height: 300px;
+  }
+}
+
+@media all and (max-width: 576.98px) {
+  main.main .rooms-content .room-content .image-block {
+    height: 280px;
   }
 }
 

@@ -19,6 +19,12 @@ body {
   }
 }
 
+@media all and (max-width: 575.98px) {
+  main.main {
+    width: 375px;
+  }
+}
+
 
 .main .result-notice {
   /* border: solid red 1px; */

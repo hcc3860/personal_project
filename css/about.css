@@ -9,12 +9,13 @@ header.header nav ul li:first-child a{
 .about {
   /* border: solid red 1px; */
   width: 1200px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
-@media all and (min-width: 768px) and (max-width: 1199.98px) {
+@media all and (max-width: 1199.98px) {
   .about {
     width: 768px;
+    margin: 0 auto;
     /* border: solid red 1px; */
   }
 }
@@ -22,7 +23,17 @@ header.header nav ul li:first-child a{
 @media all and (max-width: 767.98px) {
   .about {
     width: 576px;
+    margin: 0 auto;
     /* border: solid red 1px; */
+  }
+}
+
+@media all and (max-width: 575.98px) {
+  .about {
+    width: 375px;
+    margin: 0 auto;
+    /* border: solid red 1px; */
+    padding: 0 10px;
   }
 }
 
@@ -35,23 +46,21 @@ header.header nav ul li:first-child a{
 }
 
 .about .text-blocks {
+  margin: 0 auto;
   /* border: solid red 1px; */
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* background-image: url("./images/green.png");
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: 70% 100%; */
+  align-items: center;
 }
 
 .about .text-blocks .text-block {
-  display: flex;
+  /* display: flex; */
   margin: 0 auto;
   /* border: solid red 1px; */
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
   /* margin-bottom: 20px; */
-  align-items: center;
+  /* align-items: center; */
   height: auto;
 }
 
@@ -61,39 +70,53 @@ header.header nav ul li:first-child a{
 
 .about .text-blocks .text-block h2 {
   /* border: solid green 1px; */
-  display: inline-block;
-  margin: 0;
+  /* display: inline-block; */
+  margin-top: 0;
 }
 
 .about .text-blocks .text-block .content {
-  margin-left: 100px;
+  /* margin-left: 100px; */
   /* border: solid red 1px; */
+  width: 100%;
   height: 100%;
   vertical-align: top;
 }
 
-.about .text-blocks .text-block .content:nth-child(2) {
-  margin-right: 100px;
-  margin-left: 0;
-}
 
 @media all and (max-width: 767.98px) {
   .about .text-blocks .text-block .content {
-    margin-left: 80px;
+    /* margin-left: 80px; */
+    margin: 0 auto;
   }
-
-  .about .text-blocks .text-block .content:nth-child(2) {
+  /* .about .text-blocks .text-block .content:nth-child(2) {
     margin-right: 80px;
+  } */
+}
+
+@media all and (max-width: 575.98px) {
+  .about .text-blocks .text-block .content {
+    margin-left: 0px;
+  }
+  .about .text-blocks .text-block .content:nth-child(2) {
+    margin-right: 0px;
   }
 }
 
 .about .text-blocks .text-block .content p {
-  max-width: 500px;
+  display: inline-block;
+  width: 500px;
   height: auto;
   line-height: 1.5rem;
   margin-bottom: 0;
+  vertical-align: top;
   /* border: solid red 1px; */
-  /* margin: 0 ; */
+  margin: 0 0 0 40px;
+}
+
+.about .text-blocks .text-block.second .content p {
+  margin-right: 40px;
+  margin-left: 0;
+  /* border: solid red 1px; */
 }
 
 .about .text-blocks .text-block img {
@@ -102,12 +125,65 @@ header.header nav ul li:first-child a{
   height: 250px;
 }
 
+@media all and (max-width: 1199.98px) {
+  .about .text-blocks .text-block .content p {
+    width: calc(500px * 0.8);
+  }
+}
+
 @media all and (max-width: 767.98px) {
+  .about .text-blocks .text-block .content p {
+    margin: 0;
+    width: calc(500px * 0.8 * 0.8);
+  }
+
+  .about .text-blocks .text-block.second .content p {
+    margin-right: 0;
+  }
+
   .about .text-blocks .text-block img {
     /* border: solid blue 2px; */
     width: calc(300px * 2 / 3);
     height: calc(250px * 2 / 3);
-    float: left;
+  }
+
+  .about .text-blocks .text-block img {
+    /* float: left; */
+    margin: 0 20px 0px 0;
+  }
+
+  .about .text-blocks .text-block.second img {
+    margin: 0 0 0 20px;
+  }
+
+  /* .about .text-blocks .text-block .content:after {
+    content: "";
+    display: block;
+    clear: both;
+  } */
+
+}
+
+@media all and (max-width: 575.98px) {
+
+  .about .text-blocks .text-block .content p {
+    width: 100%;
+    order: 2;
+    margin-top: 20px;
+  }
+
+  .about .text-blocks .text-block .content img {
+    margin: 0;
+  }
+
+  .about .text-blocks .text-block.second .content img {
+    order: 1;
+  }
+
+  .about .text-blocks .text-block .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 

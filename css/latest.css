@@ -25,6 +25,14 @@ main.main {
   }
 }
 
+@media all and (max-width: 576.98px) {
+  main.main {
+    width: 375px;
+    padding: 0 10px;
+    border: solid red 1px;
+  }
+}
+
 main.main h1 {
   display: inline-block;
   width: 100%;

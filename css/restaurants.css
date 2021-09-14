@@ -24,6 +24,14 @@ main.main {
   }
 }
 
+@media all and (max-width: 575.98px) {
+  main.main {
+    width: 375px;
+    /* border: solid red 1px; */
+    padding: 0 10px;
+  }
+}
+
 main.main h1 {
   width: 100%;
   text-align: center;
@@ -39,6 +47,12 @@ main.main .content-blocks .content-block {
   /* border: solid red 1px; */
   width: 100%;
   margin-bottom: 20px;
+}
+
+@media all and (max-width: 575.98px) {
+  main.main .content-blocks .content-block {
+    border: solid black 1px;
+  }
 }
 
 main.main .content-blocks .content-block .image-block {
@@ -61,6 +75,14 @@ main.main .content-blocks .content-block .image-block {
     width: calc(500px * 1 / 2);
     height: calc(400px * 1 / 2);
     margin-right: 30px;
+  }
+}
+
+@media all and (max-width: 575.98px) {
+  main.main .content-blocks .content-block .image-block {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
   }
 }
 
@@ -90,11 +112,20 @@ main.main .content-blocks .content-block .text-block {
     width: 290px;
     /* border: solid blue 1px; */
   }
-}
-
   main.main .content-blocks .content-block .text-block h2 {
     margin: 0;
   }
+}
+
+@media all and (max-width: 575.98px) {
+  main.main .content-blocks .content-block .text-block {
+    width: 100%;
+    padding: 10px;
+  }
+
+   /* main.main .content-blocks .content-block .text-block h2 {
+
+   } */
 }
 
 main.main .content-blocks .content-block .text-block p {

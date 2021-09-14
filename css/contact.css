@@ -26,6 +26,14 @@ main.main {
   }
 }
 
+@media all and (max-width: 575.98px) {
+  main.main {
+    width: 375px;
+    padding: 0 10px;
+    border: solid red 1px;
+  }
+}
+
 main.main h1 {
   width: 100%;
   text-align: center;
@@ -60,6 +68,17 @@ main.main .map iframe {
     order: 3;
   }
 }
+
+@media all and (max-width: 575.98px) {
+  main.main .map {
+    width: 100%;
+  }
+  main.main .map iframe {
+    width: 100%;
+    height: 300px;
+  }
+}
+
 
 main.main .text-blocks {
   display: inline-block;
@@ -103,9 +122,6 @@ main.main .text-blocks .text-block.transportation li {
     margin-top: 0;
   }
 }
-
-@media all and (max-width: 767.98px) {}
-
 
 @media all and (min-width: 768px) and (max-width: 1199.98px) {}
 

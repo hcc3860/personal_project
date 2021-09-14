@@ -83,7 +83,12 @@ body {
     width: 576px;
   }
 
-  .search input[type="date"] {
+  .search form {
+    width: 100%;
+  }
+
+  .search input.check-in,
+  .search input.check-out {
     width: 50%;
     height: 50px;
   }
@@ -106,7 +111,7 @@ body {
   }
 }
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 575.98px) {
   .search {
     /* width: 90%; */
     width: 375px;
@@ -115,6 +120,7 @@ body {
   .search input[type="date"] {
     width: 50%;
     height: 50px;
+    margin: 0;
   }
 
   .search input[type="date"]:nth-child(2) {
