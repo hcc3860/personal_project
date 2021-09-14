@@ -2,13 +2,17 @@ body {
   font-family: 'Noto Sans TC', sans-serif;
 }
 
+* {
+  border-sizing: border-box;
+}
+
+
 .search {
   /* border: solid red 1px; */
   /* width: 100%; */
   width: 1200px;
   font-size: 0;
   margin: 20px auto 40px;
-
 }
 
 /* .search input,
@@ -17,6 +21,10 @@ body {
   border: solid red 5px;
 } */
 
+.search form {
+  width: 100%;
+}
+
 .search input[type="date"] {
   width: 377px;
   height: 68px;
@@ -24,6 +32,7 @@ body {
   vertical-align: top;
   cursor: pointer;
   /* border: solid #d6ff00 5px; */
+  margin: 0;
   padding: 10px;
   border-right: 0;
   border-top: solid gray 1px;
@@ -89,7 +98,8 @@ body {
 
   .search input.check-in,
   .search input.check-out {
-    width: 50%;
+    display: inline-block;
+    width: 288px;
     height: 50px;
   }
 
@@ -118,7 +128,7 @@ body {
   }
 
   .search input[type="date"] {
-    width: 50%;
+    width: 187.5px;
     height: 50px;
     margin: 0;
   }

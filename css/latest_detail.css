@@ -54,3 +54,21 @@ main.main .text-block::after {
     margin: 0 30px 30px 0;
   }
 }
+
+@media all and (max-width: 575.98px) {
+  main.main {
+    width: 375px;
+    padding: 0 10px;
+    /* border: solid red 1px; */
+  }
+
+  main.main .text-block img {
+    width: calc(500px * .6);
+    height: calc(400px * .6);
+    margin: 0 35px 20px;
+  }
+
+  main.main h1.title {
+    text-align: center;
+  }
+}
