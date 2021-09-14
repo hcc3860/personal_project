@@ -265,10 +265,11 @@ header.header .container {
 
 @media all and (max-width: 575.98px) {
   header.header {
-    width: 375px;
+    /* margin: 0 -5px 0 -5px;  */
+    width: 376px;
     /* width: 90%; */
     height: 70px;
-    border: solid red 1px;
+    /* border: solid red 1px; */
   }
 
   header.header img.logo {

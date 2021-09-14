@@ -30,7 +30,7 @@ main.main {
   main.main {
     width: 375px;
     padding: 0 10px;
-    border: solid red 1px;
+    /* border: solid red 1px; */
   }
 }
 
