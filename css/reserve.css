@@ -109,7 +109,6 @@ body {
 
   main.main .result .content div:last-child > button {
     width: 100%;
-
   }
 }
 
@@ -333,15 +332,16 @@ body {
 
   .main .result .content .confirm-block button {
     width: 125px;
+    white-space: nowrap;
   }
-
 }
-  @media all and (max-width: 767.98px) {
-    .main .result .content .confirm-block {
-      width: calc(100% - 135px - 100px - 80px - 100px - 80px);
-    }
 
-    .main .result .content .confirm-block button {
-
-    }
+@media all and (max-width: 767.98px) {
+  .main .result .content .confirm-block {
+    width: calc(100% - 135px - 100px - 80px - 100px - 80px);
   }
+
+  .main .result .content .confirm-block button {
+    white-space: nowrap;
+  }
+}

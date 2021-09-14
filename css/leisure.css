@@ -16,6 +16,10 @@ main.main {
   /* border: solid red 1px; */
 }
 
+.image-block {
+  float: left;
+}
+
 @media all and (min-width: 768px) and (max-width: 1199.98px) {
   main.main {
     width: 768px;
@@ -163,21 +167,10 @@ main.main .content-blocks .content-block .text-block p {
   }
   main.main .content-blocks .content-block .text-block ul {
     padding-left: 20px;
-    /* border: solid red 1px; */
   }
-  /* main.main .content-blocks .content-block .text-block ul,
-  main.main .content-blocks .content-block .text-block h4.notice {
-    transform: translateX(-98%);
-  }
-
-  main.main .content-blocks .content-block .text-block h4.notice.first,
-  main.main .content-blocks .content-block .text-block h4.notice.second {
-    transform: translateY(16px);
-  } */
 
   main.main .content-blocks .content-block .text-block p {
     width: 100%;
-    /* border: solid red 1px; */
     margin: 0;
   }
 
@@ -185,7 +178,6 @@ main.main .content-blocks .content-block .text-block p {
     margin-bottom: 0;
     margin-top: 1rem;
   }
-
 }
 
 @media all and (max-width: 575.98px) {

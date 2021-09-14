@@ -103,7 +103,10 @@ main.main .content-blocks .content-block .text-block {
 @media all and (min-width: 768px) and (max-width: 1199.98px) {
   main.main .content-blocks .content-block .text-block {
     width: 380px;
-    /* border: solid blue 1px; */
+  }
+
+  main.main .content-blocks .content-block .text-block h2 {
+    margin-top: 0;
   }
 }
 
@@ -112,8 +115,10 @@ main.main .content-blocks .content-block .text-block {
     width: 290px;
     /* border: solid blue 1px; */
   }
-  main.main .content-blocks .content-block .text-block h2 {
-    margin: 0;
+  main.main .content-blocks .content-block .text-block h2
+   {
+    margin-top: 0;
+    margin-bottom: .7rem;
   }
 }
 
@@ -152,7 +157,7 @@ main.main .content-blocks .content-block .text-block p {
 
   main.main .content-blocks .content-block .text-block h4 {
     margin-bottom: 0;
-    margin-top: 1rem;
+    margin-top: .7rem;
   }
 
 }

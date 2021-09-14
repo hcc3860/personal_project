@@ -113,16 +113,20 @@ header.header .container {
   header.header nav ul li {
     display: block;
     width: 100%;
-    height: 30px;
-    /* line-height: 30px; */
+    height: 50px;
+    line-height: 50px;
     /* border: solid red 1px; */
+    border-bottom: solid gray 1px;
     margin: 0;
     text-align: center;
     background-color: white;
   }
 
   header.header nav ul li a{
-    line-height: 30px;
+    display: inline-block;
+    line-height: 50px;
+    height: 50px;
+    /* border: solid red 1px; */
   }
 
   header.header nav ul li:last-child {
@@ -201,16 +205,18 @@ header.header .container {
   header.header nav ul li {
     display: block;
     width: 100%;
-    height: 30px;
-    /* line-height: 30px; */
-    /* border: solid red 1px; */
+    height: 50px;
+    line-height: 50px;
+    border-bottom: solid gray 1px;
     margin: 0;
     text-align: center;
     background-color: white;
   }
 
   header.header nav ul li a{
-    line-height: 30px;
+    display: inline-block;
+    line-height: 50px;
+    height: 50px;
   }
 
   header.header nav ul li:last-child {
@@ -266,7 +272,7 @@ header.header .container {
 @media all and (max-width: 575.98px) {
   header.header {
     /* margin: 0 -5px 0 -5px;  */
-    width: 376px;
+    width: 375px;
     /* width: 90%; */
     height: 70px;
     /* border: solid red 1px; */
@@ -300,4 +306,23 @@ header.header .container {
   header.header .container .hamburger {
     margin-left: calc(100% - 94px - 60px);
   }
+
+  /*
+    header.header nav ul li {
+      display: block;
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+
+      border-bottom: solid gray 1px;
+      margin: 0;
+      text-align: center;
+      background-color: white;
+    }
+
+    header.header nav ul li a{
+      display: inline-block;
+      line-height: 50px;
+      height: 50px;
+    } */
 }
