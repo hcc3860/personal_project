@@ -547,8 +547,13 @@ div.img-block:hover span.title {
     width: 100%;
   }
 
+  .latest .wider-blocks .wider-block {
+    height: 300px;
+  }
+
   .latest .wider-blocks .wider-block a img {
     object-fit: cover;
+    height: 100%;
   }
 
   .latest .wider-blocks .wider-block span {
