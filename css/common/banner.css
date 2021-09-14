@@ -4,7 +4,7 @@ body {
 
 .banner {
   /* border: solid red 1px; */
-  margin-top: 100px;
+  /* margin-top: 100px; */
   margin: 100px auto 0;
   height: 540px;
   width: 1200px;
@@ -81,4 +81,31 @@ body {
     width: calc(50px * 0.8 * 0.8);
   }
 
+}
+
+@media all and (max-width: 575.98px) {
+  .banner {
+    width: 375px;
+    /* width: 90%; */
+    height: 350px;
+    background-size: cover;
+    /* margin-top: 70px; */
+    margin: 70px auto 0 auto;
+  }
+
+  .banner span.title {
+    left: calc(100px * 0.8 * 0.8 * 0.8);
+    font-size: 2.5rem;
+  }
+
+  .banner span.sub-title {
+    left: calc(160px * 0.8 * 0.8 * 0.93);
+    top: calc(47% / 0.9);
+    font-size: 1.76rem;
+  }
+
+  .banner span.sub-title::before {
+    left: calc(-60px * 0.8 * 0.85);
+    width: calc(50px * 0.8 * 0.8);
+  }
 }

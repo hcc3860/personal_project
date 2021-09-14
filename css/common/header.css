@@ -265,8 +265,8 @@ header.header .container {
 
 @media all and (max-width: 575.98px) {
   header.header {
-    min-width: 375px;
-    width: 90%;
+    width: 375px;
+    /* width: 90%; */
     height: 70px;
     border: solid red 1px;
   }
