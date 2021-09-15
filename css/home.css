@@ -1,5 +1,7 @@
 body {
   font-family: 'Noto Sans TC', sans-serif;
+  overflow-x: hidden;
+  margin: 0 auto;
 }
 
 div.intro {
@@ -244,8 +246,13 @@ div.img-block:hover span.title {
 }
 
 @media all and (min-width: 768px) and (max-width: 1199.98px) {
-  div.intro, div.intro .intro-image {
+  div.intro {
     width: 768px;
+    margin: 0 auto;
+  }
+
+  div.intro .intro-image {
+    width: 100%;
   }
 
   div.intro .intro-image .img-block {
@@ -343,6 +350,7 @@ div.img-block:hover span.title {
 @media all and (max-width: 767.98px) {
   div.intro {
     width: 576px;
+    margin: 0 auto;
   }
 
   div.intro .intro-image .img-block img {
@@ -466,6 +474,8 @@ div.img-block:hover span.title {
   div.intro {
     width: 375px;
     /* border: solid red 1px; */
+    margin: 0 auto;
+    padding: 0 10px;
   }
 
   div.intro .intro-image .img-block:nth-child(2) {
@@ -484,6 +494,8 @@ div.img-block:hover span.title {
 
   .alert {
     width: 375px;
+    margin: 0 auto;
+    padding: 0 10px;
   }
 
   .alert h1 {
@@ -509,6 +521,8 @@ div.img-block:hover span.title {
 
   .latest {
     width: 375px;
+    margin: 0 auto;
+    padding: 0 10px;
   }
 
   .latest h1 {

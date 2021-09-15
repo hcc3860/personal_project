@@ -271,10 +271,11 @@ header.header .container {
 
 @media all and (max-width: 575.98px) {
   header.header {
-    width: 376px;
+    width: 375px;
     height: 70px;
     margin: 0 auto;
-    border: solid white 1px;
+    position: fixed;
+    /* border: solid white 1px; */
   }
 
   header.header img.logo {
