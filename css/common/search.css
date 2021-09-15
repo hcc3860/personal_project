@@ -132,6 +132,7 @@ body {
   .search input[type="date"] {
     width: 187.5px;
     height: 50px;
+    line-height: 50px;
     margin: 0;
     padding: 10px;
   }
