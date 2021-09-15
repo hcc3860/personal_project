@@ -29,7 +29,7 @@ body {
   width: 377px;
   height: 68px;
   font-size: 1rem;
-  vertical-align: top;
+  /* vertical-align: middle; */
   cursor: pointer;
   /* border: solid #d6ff00 5px; */
   margin: 0;
@@ -137,7 +137,9 @@ body {
   }
 
   .search input[type="date"]:nth-child(2) {
+    /* border-bottom: 0; */
     border-right: solid gray 1px;
+
   }
 
   .search select {

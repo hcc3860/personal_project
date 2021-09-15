@@ -32,12 +32,16 @@ body {
 }
 
 @media all and (max-width: 575.98px) {
+  main.main {
+    padding: 0 10px;
+  }
+  
   main.main .result {
     display: flex;
     flex-direction: row;
     border: solid black 1px;
     height: auto;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
   main.main .result .title {
