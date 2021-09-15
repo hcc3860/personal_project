@@ -1,6 +1,6 @@
 body {
   font-family: 'Noto Sans TC', sans-serif;
-  margin: 20px auto 40px;
+  /* margin: 20px auto 40px; */
 }
 
 * {
@@ -13,7 +13,7 @@ body {
   /* width: 100%; */
   width: 1200px;
   font-size: 0;
-  /* margin: 20px auto 40px; */
+  margin: 20px auto 40px;
 }
 
 /* .search input,
